@@ -2,6 +2,8 @@
 
 Releases | Релизы: [GitHub](https://github.com/Distemi/JoinCommands/releases)
 
+poggit: [![](https://poggit.pmmp.io/shield.state/JoinCommands)](https://poggit.pmmp.io/p/JoinCommands)
+
 [Русский](#русский) | [English](#english)
 
 
