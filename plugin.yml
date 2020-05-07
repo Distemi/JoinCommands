@@ -1,0 +1,17 @@
+name: JoinCommands
+main: Distemi\JoinCommands\Main
+description: Join commands
+version: 0.1.0
+api: 3.11.7
+author: Distemi
+commands:
+ joincommands:
+  description: "Reload plugin JoinCommands."
+  permission: joincommands.reload
+  aliases:
+  - jc
+  - JoinCommands
+permissions:
+ joincommands.reload:
+  description: "Reload plugin JoinCommands."
+  default: op

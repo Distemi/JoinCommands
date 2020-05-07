@@ -1,0 +1,25 @@
+---
+################################
+#                              #
+#  Plugin cleated by Distemi.  #
+#                              #
+################################
+
+
+#Enable execute commnd(-s) on join player on server? 
+Enabled: true
+
+##########
+#Commands execute on player join if - Enabled: true .
+#%player% - replaced to player name.
+#Examples:
+#1)
+#Commands: []
+#2)
+#Commands:
+#-clear %player%
+##########
+Commands: 
+- clear %player%
+
+...
