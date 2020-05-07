@@ -1,6 +1,6 @@
     JoinCommands
 
-Releases: [GitHub](https://github.com/Distemi/JoinCommands/releases)
+Releases | Релизы: [GitHub](https://github.com/Distemi/JoinCommands/releases)
 
 [Русский](#русский) | [English](#english)
 
@@ -27,9 +27,9 @@ API
 
 $JC = $this->getServer()->getPluginManager()->getPlugin("JoinCommands");   - Получение API плагина.
 
-$JC->addCommand("say Distemi You join");                                   - Добавление одной команды в базу данных плагина(удалится при перезагрузки плагина).
+$JC->addCommand("say %player% You join");                                  - Добавление одной команды в базу данных плагина(удалится при перезагрузки плагина).
 
-$JC->addCommands(array("say Distemi You join","give Distemi 1"));          - Добавление множества команд в базу данных плагина(удалится при перезагрузки плагина).
+$JC->addCommands(array("say %player% You join","give %player% 1"));        - Добавление множества команд в базу данных плагина(удалится при перезагрузки плагина).
 
 
 Использование
@@ -62,9 +62,9 @@ API
 
 $JC = $this->getServer()->getPluginManager()->getPlugin("JoinCommands");   - Get plugin's API.
 
-$JC->addCommand("say Distemi You join");                                   - Add one command to plugin db(remove on reload plugin).
+$JC->addCommand("say %player% You join");                                  - Add one command to plugin db(remove on reload plugin).
 
-$JC->addCommands(array("say Distemi You join","give Distemi 1"));          - Add more commands to plugin db(remove on reload plugin).
+$JC->addCommands(array("say %player% You join","give %player% 1"));        - Add more commands to plugin db(remove on reload plugin).
 
 
 Usage
